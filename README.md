@@ -217,3 +217,23 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ritam-Sur/Ritam-Sur/output/github-snake.svg" alt="Ritam Sur's Contribution Snake" width="90%" />
 </p>
+
+---
+
+# 🌟 Thanks For Visiting
+
+<h3 align="center">
+
+⭐ If you like my work, consider starring my repositories!
+
+</h3>
+
+<h4 align="center">
+
+Let's Connect & Build Amazing Projects Together 🚀
+
+</h4>
+
+---
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=gradient&customColorList=6,11,20,24,30"/>
