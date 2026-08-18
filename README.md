@@ -91,23 +91,23 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
     <td width="50%" valign="top">
       <h3><a href="https://ai-powered-risk-management-nxov.onrender.com/">🤖 AI-Powered Risk Management System</a></h3>
       <p>Multi-agent AI system for project risk assessment and mitigation.</p>
-      <ul>
-        <li>✓ Hierarchical multi-agent AI orchestration with CrewAI &amp; LangChain</li>
-        <li>✓ Hybrid deterministic + LLM reasoning for reliable risk evaluation</li>
-        <li>✓ ChromaDB-powered RAG for historical project intelligence</li>
-        <li>✓ Automated mitigation workflows with AWS S3</li>
-      </ul>
+      <p>
+        ✔️ Hierarchical multi-agent AI orchestration with CrewAI &amp; LangChain<br>
+        ✔️ Hybrid deterministic + LLM reasoning for reliable risk evaluation<br>
+        ✔️ ChromaDB-powered RAG for historical project intelligence<br>
+        ✔️ Automated mitigation workflows with AWS S3
+      </p>
       <a href="https://ai-powered-risk-management-nxov.onrender.com/">🌐 Live Demo →</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/Smart-Attendance-System">📍 Smart Attendance System</a></h3>
       <p>Secure attendance system combining facial recognition with geolocation verification.</p>
-      <ul>
-        <li>✓ Facial recognition with OpenCV/dlib and ResNet embeddings</li>
-        <li>✓ GPS geofencing to prevent proxy attendance</li>
-        <li>✓ Flask dashboard with PostgreSQL and Plotly</li>
-        <li>✓ Real-time attendance analytics and reporting</li>
-      </ul>
+      <p>
+        ✔️ Facial recognition with OpenCV/dlib and ResNet embeddings<br>
+        ✔️ GPS geofencing to prevent proxy attendance<br>
+        ✔️ Flask dashboard with PostgreSQL and Plotly<br>
+        ✔️ Real-time attendance analytics and reporting
+      </p>
       <a href="https://github.com/Ritam-Sur/Smart-Attendance-System">💻 Repository →</a>
     </td>
   </tr>
@@ -115,23 +115,23 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/SignSpeak-ASL-Translator">🤟 SignSpeak — ASL Translator</a></h3>
       <p>Real-Time Sign Language Recognition</p>
-      <ul>
-        <li>✓ TensorFlow</li>
-        <li>✓ MediaPipe</li>
-        <li>✓ OpenCV</li>
-        <li>✓ Flask Web App</li>
-      </ul>
+      <p>
+        ✔️ TensorFlow<br>
+        ✔️ MediaPipe<br>
+        ✔️ OpenCV<br>
+        ✔️ Flask Web App
+      </p>
       <a href="https://github.com/Ritam-Sur/SignSpeak-ASL-Translator">💻 Repository →</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/ai-visual-manipulation-detector">🔍 AI Visual Manipulation Detector</a></h3>
       <p>Lightweight Computer Vision System</p>
-      <ul>
-        <li>✓ Image Splicing Detection</li>
-        <li>✓ Deepfake Detection</li>
-        <li>✓ OpenCV &amp; Python</li>
-        <li>✓ CPU Optimized</li>
-      </ul>
+      <p>
+        ✔️ Image Splicing Detection<br>
+        ✔️ Deepfake Detection<br>
+        ✔️ OpenCV &amp; Python<br>
+        ✔️ CPU Optimized
+      </p>
       <a href="https://github.com/Ritam-Sur/ai-visual-manipulation-detector">💻 Repository →</a>
     </td>
   </tr>
