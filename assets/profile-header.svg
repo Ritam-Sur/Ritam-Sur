@@ -64,14 +64,14 @@
     </linearGradient>
 
     <!-- Bottom Wave & Accent Gradients -->
-    <linearGradient id="waveFill" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="waveFill" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#2563EB" stop-opacity="0.04" />
       <stop offset="35%" stop-color="#4F7CFF" stop-opacity="0.12" />
       <stop offset="70%" stop-color="#6C63FF" stop-opacity="0.10" />
       <stop offset="100%" stop-color="#2563EB" stop-opacity="0.03" />
     </linearGradient>
 
-    <linearGradient id="waveLine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="waveLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#2563EB" stop-opacity="0.0" />
       <stop offset="20%" stop-color="#4F7CFF" stop-opacity="0.5" />
       <stop offset="50%" stop-color="#6C63FF" stop-opacity="0.7" />
@@ -146,6 +146,58 @@
       fill: #4F7CFF;
       font-weight: 700;
     }
+
+    /* Animations */
+    @keyframes waveShift {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-1200px); }
+    }
+    @keyframes nodePulse1 {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes nodePulse2 {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.15; }
+    }
+    @keyframes float1 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(4px); }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(3px, -4px); }
+    }
+    @keyframes ambientPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    @keyframes ambientPulseSlow {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+
+    .wave-layer {
+      animation: waveShift 20s linear infinite;
+    }
+    .wave-layer-slow {
+      animation: waveShift 28s linear infinite;
+    }
+    .pulse-1 { animation: nodePulse1 8s ease-in-out infinite; }
+    .pulse-2 { animation: nodePulse2 12s ease-in-out infinite; }
+    .pulse-3 { animation: nodePulse1 15s ease-in-out infinite; }
+    
+    .float-1 { animation: float1 10s ease-in-out infinite; }
+    .float-2 { animation: float2 14s ease-in-out infinite; }
+    .float-3 { animation: float3 17s ease-in-out infinite; }
+    
+    .ambient { animation: ambientPulse 12s ease-in-out infinite; }
+    .ambient-slow { animation: ambientPulseSlow 18s ease-in-out infinite; }
+    .ambient-delay { animation: ambientPulse 15s ease-in-out infinite 3s; }
   </style>
 
   <!-- Container with Rounded Corners Clip -->
@@ -154,45 +206,59 @@
     <rect width="1200" height="320" fill="url(#bgGrad)" />
 
     <!-- Ambient Lighting Atmosphere -->
-    <rect width="1200" height="320" fill="url(#centerAtmosphere)" />
-    <rect width="1200" height="320" fill="url(#topBeamGlow)" />
-    <rect width="1200" height="320" fill="url(#leftAmbient)" />
-    <rect width="1200" height="320" fill="url(#rightAmbient)" />
+    <rect width="1200" height="320" fill="url(#centerAtmosphere)" class="ambient" />
+    <rect width="1200" height="320" fill="url(#topBeamGlow)" class="ambient-slow" />
+    <rect width="1200" height="320" fill="url(#leftAmbient)" class="ambient-delay" />
+    <rect width="1200" height="320" fill="url(#rightAmbient)" class="ambient" />
 
     <!-- Masked Grid Matrix -->
     <rect width="1200" height="320" fill="url(#dotPattern)" mask="url(#gridMask)" />
 
     <!-- Subtle Geometric Light Constellations (Left balance) -->
     <g opacity="0.32" stroke="#4F7CFF" stroke-width="1">
-      <line x1="90" y1="80" x2="170" y2="120" stroke-dasharray="3 3" />
-      <line x1="170" y1="120" x2="245" y2="90" />
-      <line x1="245" y1="90" x2="295" y2="155" stroke-dasharray="2 4" />
-      <line x1="170" y1="120" x2="195" y2="200" />
-      <line x1="195" y1="200" x2="120" y2="235" stroke-dasharray="3 3" />
+      <line x1="90" y1="80" x2="170" y2="120" stroke-dasharray="3 3" class="pulse-1" />
+      <line x1="170" y1="120" x2="245" y2="90" class="pulse-2" />
+      <line x1="245" y1="90" x2="295" y2="155" stroke-dasharray="2 4" class="pulse-3" />
+      <line x1="170" y1="120" x2="195" y2="200" class="pulse-1" />
+      <line x1="195" y1="200" x2="120" y2="235" stroke-dasharray="3 3" class="pulse-2" />
     </g>
     <!-- Left Nodes -->
-    <circle cx="90" cy="80" r="2" fill="#4F7CFF" />
-    <circle cx="170" cy="120" r="3" fill="#DCE7FF" filter="url(#nodeGlow)" />
-    <circle cx="245" cy="90" r="2.5" fill="#6C63FF" filter="url(#nodeGlow)" />
-    <circle cx="295" cy="155" r="2" fill="#4F7CFF" />
-    <circle cx="195" cy="200" r="2.5" fill="#2563EB" />
-    <circle cx="120" cy="235" r="2" fill="#6C63FF" />
+    <circle cx="90" cy="80" r="2" fill="#4F7CFF" class="pulse-2" />
+    <circle cx="170" cy="120" r="3" fill="#DCE7FF" filter="url(#nodeGlow)" class="pulse-1" />
+    <circle cx="245" cy="90" r="2.5" fill="#6C63FF" filter="url(#nodeGlow)" class="pulse-3" />
+    <circle cx="295" cy="155" r="2" fill="#4F7CFF" class="pulse-2" />
+    <circle cx="195" cy="200" r="2.5" fill="#2563EB" class="pulse-1" />
+    <circle cx="120" cy="235" r="2" fill="#6C63FF" class="pulse-3" />
 
     <!-- Subtle Geometric Light Constellations (Right balance) -->
     <g opacity="0.32" stroke="#6C63FF" stroke-width="1">
-      <line x1="1110" y1="90" x2="1030" y2="120" stroke-dasharray="3 3" />
-      <line x1="1030" y1="120" x2="955" y2="85" />
-      <line x1="955" y1="85" x2="905" y2="150" stroke-dasharray="2 4" />
-      <line x1="1030" y1="120" x2="1005" y2="200" />
-      <line x1="1005" y1="200" x2="1080" y2="230" stroke-dasharray="3 3" />
+      <line x1="1110" y1="90" x2="1030" y2="120" stroke-dasharray="3 3" class="pulse-2" />
+      <line x1="1030" y1="120" x2="955" y2="85" class="pulse-1" />
+      <line x1="955" y1="85" x2="905" y2="150" stroke-dasharray="2 4" class="pulse-3" />
+      <line x1="1030" y1="120" x2="1005" y2="200" class="pulse-2" />
+      <line x1="1005" y1="200" x2="1080" y2="230" stroke-dasharray="3 3" class="pulse-1" />
     </g>
     <!-- Right Nodes -->
-    <circle cx="1110" cy="90" r="2" fill="#4F7CFF" />
-    <circle cx="1030" cy="120" r="3" fill="#DCE7FF" filter="url(#nodeGlow)" />
-    <circle cx="955" cy="85" r="2.5" fill="#6C63FF" filter="url(#nodeGlow)" />
-    <circle cx="905" cy="150" r="2" fill="#4F7CFF" />
-    <circle cx="1005" cy="200" r="2.5" fill="#6C63FF" />
-    <circle cx="1080" cy="230" r="2" fill="#2563EB" />
+    <circle cx="1110" cy="90" r="2" fill="#4F7CFF" class="pulse-1" />
+    <circle cx="1030" cy="120" r="3" fill="#DCE7FF" filter="url(#nodeGlow)" class="pulse-2" />
+    <circle cx="955" cy="85" r="2.5" fill="#6C63FF" filter="url(#nodeGlow)" class="pulse-3" />
+    <circle cx="905" cy="150" r="2" fill="#4F7CFF" class="pulse-1" />
+    <circle cx="1005" cy="200" r="2.5" fill="#6C63FF" class="pulse-2" />
+    <circle cx="1080" cy="230" r="2" fill="#2563EB" class="pulse-3" />
+
+    <!-- Floating Ambient Particles -->
+    <g class="float-1">
+      <circle cx="150" cy="260" r="1.5" fill="#4F7CFF" class="pulse-1" />
+      <circle cx="850" cy="80" r="1" fill="#DCE7FF" class="pulse-3" />
+    </g>
+    <g class="float-2">
+      <circle cx="350" cy="100" r="2" fill="#6C63FF" class="pulse-2" filter="url(#nodeGlow)" />
+      <circle cx="1050" cy="270" r="1.5" fill="#2563EB" class="pulse-1" />
+    </g>
+    <g class="float-3">
+      <circle cx="750" cy="220" r="1.5" fill="#4F7CFF" class="pulse-2" />
+      <circle cx="220" cy="60" r="2" fill="#6C63FF" class="pulse-3" filter="url(#nodeGlow)" />
+    </g>
 
     <!-- Subtle Futuristic Corner Framing Accents -->
     <path d="M 28 42 L 28 28 L 42 28" fill="none" stroke="#4F7CFF" stroke-width="1.5" opacity="0.45" />
@@ -201,9 +267,9 @@
     <path d="M 1172 278 L 1172 292 L 1158 292" fill="none" stroke="#4F7CFF" stroke-width="1.5" opacity="0.45" />
 
     <!-- Smooth Bottom Wave Transition -->
-    <path d="M0,282 C280,248 440,296 700,268 C920,244 1060,276 1200,262 L1200,320 L0,320 Z" fill="url(#waveFill)" />
-    <path d="M0,282 C280,248 440,296 700,268 C920,244 1060,276 1200,262" fill="none" stroke="url(#waveLine)" stroke-width="1.6" filter="url(#softGlow)" />
-    <path d="M0,296 C260,270 500,310 780,282 C980,262 1100,286 1200,282" fill="none" stroke="url(#waveLine)" stroke-width="0.9" opacity="0.35" />
+    <path class="wave-layer" d="M 0 280 C 400 240, 800 320, 1200 280 C 1600 240, 2000 320, 2400 280 L 2400 320 L 0 320 Z" fill="url(#waveFill)" />
+    <path class="wave-layer" d="M 0 280 C 400 240, 800 320, 1200 280 C 1600 240, 2000 320, 2400 280" fill="none" stroke="url(#waveLine)" stroke-width="1.6" filter="url(#softGlow)" />
+    <path class="wave-layer-slow" d="M 0 270 C 400 310, 800 230, 1200 270 C 1600 310, 2000 230, 2400 270" fill="none" stroke="url(#waveLine)" stroke-width="0.9" opacity="0.35" />
 
     <!-- Top Rim Light Highlight -->
     <line x1="360" y1="1" x2="840" y2="1" stroke="url(#topRimGrad)" stroke-width="2" />
