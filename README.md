@@ -157,3 +157,11 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 - 🗄️ Data Warehousing & Data Engineering
 - ☁️ Cloud Computing & AWS
 - 🧩 Data Structures & Algorithms
+
+---
+
+## 📊 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ritam-Sur&theme=react-dark&hide_border=true&radius=12" width="95%" alt="Contribution Graph" />
+</div>
