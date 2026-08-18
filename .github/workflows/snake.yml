@@ -22,7 +22,8 @@ jobs:
         with:
           github_user_name: Ritam-Sur
           outputs: |
-            dist/github-snake.svg?color_snake=#6C63FF&color_dots=#1B2559,#263B8F,#3F5FE8,#4F7CFF,#6C63FF
+            dist/github-snake.svg?color_snake=#00BFFF&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-snake-dark.svg?color_snake=#00BFFF&color_dots=#161b22,#9be9a8,#40c463,#30a14e,#216e39
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
