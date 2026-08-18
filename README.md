@@ -92,50 +92,46 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
       <h3><a href="https://ai-powered-risk-management-nxov.onrender.com/">🤖 AI-Powered Risk Management System</a></h3>
       <p>Multi-agent AI system for project risk assessment and mitigation.</p>
       <ul>
-        <li>✓ Hierarchical multi-agent AI orchestration using CrewAI &amp; LangChain</li>
+        <li>✓ Hierarchical multi-agent AI orchestration with CrewAI &amp; LangChain</li>
         <li>✓ Hybrid deterministic + LLM reasoning for reliable risk evaluation</li>
         <li>✓ ChromaDB-powered RAG for historical project intelligence</li>
-        <li>✓ Gemini API for intelligent analysis and recommendations</li>
+        <li>✓ Automated mitigation workflows with AWS S3</li>
       </ul>
-      <p><code>Python</code> · <code>CrewAI</code> · <code>LangChain</code> · <code>ChromaDB</code> · <code>Gemini</code></p>
       <a href="https://ai-powered-risk-management-nxov.onrender.com/">🌐 Live Demo →</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/Smart-Attendance-System">📍 Smart Attendance System</a></h3>
       <p>Secure attendance system combining facial recognition with geolocation verification.</p>
       <ul>
-        <li>✓ Facial recognition with OpenCV/dlib and face embeddings</li>
+        <li>✓ Facial recognition with OpenCV/dlib and ResNet embeddings</li>
         <li>✓ GPS geofencing to prevent proxy attendance</li>
-        <li>✓ Flask dashboard with PostgreSQL backend</li>
-        <li>✓ Attendance analytics and reporting</li>
+        <li>✓ Flask dashboard with PostgreSQL and Plotly</li>
+        <li>✓ Real-time attendance analytics and reporting</li>
       </ul>
-      <p><code>Python</code> · <code>Flask</code> · <code>OpenCV</code> · <code>PostgreSQL</code></p>
       <a href="https://github.com/Ritam-Sur/Smart-Attendance-System">💻 Repository →</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/SignSpeak-ASL-Translator">🤟 SignSpeak — ASL Translator</a></h3>
-      <p>Real-time American Sign Language gesture-to-text translation system.</p>
+      <p>Real-Time Sign Language Recognition</p>
       <ul>
-        <li>✓ TensorFlow neural network for ASL classification</li>
-        <li>✓ MediaPipe hand landmark detection</li>
-        <li>✓ OpenCV-based real-time vision processing</li>
-        <li>✓ Flask web application</li>
+        <li>✓ TensorFlow</li>
+        <li>✓ MediaPipe</li>
+        <li>✓ OpenCV</li>
+        <li>✓ Flask Web App</li>
       </ul>
-      <p><code>Python</code> · <code>TensorFlow</code> · <code>MediaPipe</code> · <code>OpenCV</code> · <code>Flask</code></p>
       <a href="https://github.com/Ritam-Sur/SignSpeak-ASL-Translator">💻 Repository →</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ritam-Sur/ai-visual-manipulation-detector">🔍 AI Visual Manipulation Detector</a></h3>
-      <p>Lightweight computer-vision system for detecting image manipulation.</p>
+      <p>Lightweight Computer Vision System</p>
       <ul>
-        <li>✓ Image splicing detection</li>
-        <li>✓ Deepfake detection</li>
-        <li>✓ OpenCV + Python computer vision pipeline</li>
-        <li>✓ CPU-optimized inference</li>
+        <li>✓ Image Splicing Detection</li>
+        <li>✓ Deepfake Detection</li>
+        <li>✓ OpenCV &amp; Python</li>
+        <li>✓ CPU Optimized</li>
       </ul>
-      <p><code>Python</code> · <code>OpenCV</code> · <code>Streamlit</code></p>
       <a href="https://github.com/Ritam-Sur/ai-visual-manipulation-detector">💻 Repository →</a>
     </td>
   </tr>
