@@ -186,3 +186,26 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 </p>
 
 ---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+  <a href="https://github.com/Ritam-Sur" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="32" alt="GitHub" />
+  </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ritam-sur-9a526728b/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
+  <a href="mailto:ritamrs095@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" height="32" alt="Gmail" />
+  </a>&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@ritamr.s.9700" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" height="32" alt="YouTube" />
+  </a>
+
+  <br><br>
+
+  <img src="https://komarev.com/ghpvc/?username=Ritam-Sur&label=PROFILE+VIEWS&color=4F7CFF&labelColor=1a1a2e&style=flat-square" alt="Profile Views" />
+
+</div>
