@@ -220,20 +220,10 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 
 ---
 
-# 🌟 Thanks For Visiting
+<div align="center">
 
-<h3 align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:172554,100:0B1F5E&height=120&section=footer" />
 
-⭐ If you like my work, consider starring my repositories!
+*"Break it. Understand it. Build it better."* 🔥
 
-</h3>
-
-<h4 align="center">
-
-Let's Connect & Build Amazing Projects Together 🚀
-
-</h4>
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=gradient&customColorList=6,11,20,24,30"/>
+</div>
