@@ -177,3 +177,12 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 | 🎓 NPTEL · IIT Kharagpur | **Operating System Fundamentals — Elite**<br>Score: 63% · Jul–Oct 2025 |
 | 🎓 NPTEL · IIT Kharagpur | **Software Engineering — Elite**<br>Score: 64% · Jul–Oct 2025 |
 
+---
+
+## 💡 Daily Motivation
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</p>
+
+---
