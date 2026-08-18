@@ -165,3 +165,15 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ritam-Sur&custom_title=Ritam%20Sur%27s%20Contribution%20Graph&theme=react-dark&hide_border=true&radius=12" width="95%" alt="Contribution Graph" />
 </div>
+
+---
+
+## 🏅 Certifications & Achievements
+
+| Issuer | Certification / Achievement |
+| --- | --- |
+| 🏆 Capgemini | **Top 100 Finalist — Capgemini Exceller AgentifAI Buildathon 2026**<br>HiveLogic · Agentic AI / Finance |
+| 🏢 Indian Oil Corporation Limited (IOCL) | **Summer Internship — Haldia Refinery**<br>GeoFace Attendance System & ANPR Tesseract · May–June 2025 |
+| 🎓 NPTEL · IIT Kharagpur | **Operating System Fundamentals — Elite**<br>Score: 63% · Jul–Oct 2025 |
+| 🎓 NPTEL · IIT Kharagpur | **Software Engineering — Elite**<br>Score: 64% · Jul–Oct 2025 |
+
