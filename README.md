@@ -163,5 +163,5 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 ## 📊 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ritam-Sur&theme=react-dark&hide_border=true&radius=12" width="95%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ritam-Sur&custom_title=Ritam%20Sur%27s%20Contribution%20Graph&theme=react-dark&hide_border=true&radius=12" width="95%" alt="Contribution Graph" />
 </div>
