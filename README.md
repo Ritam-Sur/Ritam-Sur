@@ -209,3 +209,11 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
   <img src="https://komarev.com/ghpvc/?username=Ritam-Sur&label=PROFILE+VIEWS&color=4F7CFF&labelColor=1a1a2e&style=flat-square" alt="Profile Views" />
 
 </div>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ritam-Sur/Ritam-Sur/output/github-snake.svg" alt="Ritam Sur's Contribution Snake" width="90%" />
+</p>
