@@ -136,3 +136,12 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
     </td>
   </tr>
 </table>
+
+---
+
+## 🏆 Hackathons & Internship Projects
+
+| Category | Projects |
+| --- | --- |
+| 💼 **Internship Projects** | [Smart Attendance System](https://github.com/Ritam-Sur/Smart-Attendance-System) · [ANPR Toll Management System](https://github.com/Ritam-Sur/ANPR-Toll-Management-System) |
+| 🏆 **Hackathon Projects** | [Capgemini Agentic Finance](https://github.com/Ritam-Sur/capgemini-agentic-finance) · [Flipkart Traffic Prediction](https://github.com/Ritam-Sur/flipkart-traffic-prediction) |
