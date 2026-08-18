@@ -192,16 +192,16 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 <div align="center">
 
   <a href="https://github.com/Ritam-Sur" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/white" height="44" alt="GitHub" />
+    <img src="https://cdn.simpleicons.org/github" width="40" height="40" alt="GitHub" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/ritam-sur-9a526728b/" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="44" alt="LinkedIn" />
+    <img src="https://cdn.simpleicons.org/linkedin" width="40" height="40" alt="LinkedIn" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:ritamrs095@gmail.com" target="_blank">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" height="44" alt="Gmail" />
+    <img src="https://cdn.simpleicons.org/gmail" width="40" height="40" alt="Gmail" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.youtube.com/@ritamr.s.9700" target="_blank">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000" height="44" alt="YouTube" />
+    <img src="https://cdn.simpleicons.org/youtube" width="40" height="40" alt="YouTube" />
   </a>
 
   <br><br>
