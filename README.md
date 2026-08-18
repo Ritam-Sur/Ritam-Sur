@@ -195,7 +195,7 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
     <img src="https://cdn.simpleicons.org/github" width="40" height="40" alt="GitHub" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/ritam-sur-9a526728b/" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin" width="40" height="40" alt="LinkedIn" />
+    <img src="assets/linkedin.png" width="40" height="40" alt="LinkedIn" />
   </a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:ritamrs095@gmail.com" target="_blank">
     <img src="https://cdn.simpleicons.org/gmail" width="40" height="40" alt="Gmail" />
