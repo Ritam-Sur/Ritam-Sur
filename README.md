@@ -145,3 +145,15 @@ I'm a **final-year Computer Science & Engineering student** and software enginee
 | --- | --- |
 | 💼 **Internship Projects** | [Smart Attendance System](https://github.com/Ritam-Sur/Smart-Attendance-System) · [ANPR Toll Management System](https://github.com/Ritam-Sur/ANPR-Toll-Management-System) |
 | 🏆 **Hackathon Projects** | [Capgemini Agentic Finance](https://github.com/Ritam-Sur/capgemini-agentic-finance) · [Flipkart Traffic Prediction](https://github.com/Ritam-Sur/flipkart-traffic-prediction) |
+
+---
+
+## 🚀 Currently Exploring
+
+- 🧠 MCP Server Architecture & Tool Orchestration
+- 🕸️ GraphRAG & Knowledge Graphs
+- 🤖 Agentic AI & Multi-Agent Orchestration
+- ☕ Spring Boot & Java Backend Development
+- 🗄️ Data Warehousing & Data Engineering
+- ☁️ Cloud Computing & AWS
+- 🧩 Data Structures & Algorithms
